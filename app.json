@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/getTask/getTask",
+    "pages/getTaskDetail/getTaskDetail",
+    "pages/getTaskList/getTaskList"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

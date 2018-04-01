@@ -1,0 +1,47 @@
+/* pages/getTask/getTask.wxss */
+.list{
+  width: 686rpx;
+  background: #FFFFFF;
+box-shadow: 0 0 20rpx 0 rgba(50,51,52,0.12);
+border-radius: 8rpx;
+margin:32rpx auto 0 auto;
+}
+.listHead{
+  height: 100rpx;
+  line-height: 100rpx;
+  background: #5D5D5D;
+border-radius: 8rpx 8rpx 0 0;
+padding: 0 32rpx;
+font-size: 32rpx;
+color: #FFFFFF;
+
+}
+.listHead text{
+  float: right;
+  font-size: 28rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  display: block;
+  width: 150rpx;
+  background: #22A7F0;
+  border-radius: 30rpx;
+  margin-top: 20rpx;
+  text-align: center;
+}
+.listHead text.disable{
+  opacity: 0.9;
+  font-size: 14px;
+  color: #AAAAAA;
+  background: #fff;
+}
+.listBody{
+  padding: 32rpx;
+  font-size: 28rpx;
+  color: #222;
+  line-height: 60rpx;
+}
+.listBody text{
+  font-size:32rpx;
+  color: #F45B5B;
+  float: right
+}

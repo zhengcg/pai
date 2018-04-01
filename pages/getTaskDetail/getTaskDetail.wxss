@@ -1,0 +1,54 @@
+/* pages/getTaskDetail/getTaskDetail.wxss */
+.detailHead{
+  background: #FFFFFF;
+  box-shadow: 0 0 20rpx 0 rgba(50,51,52,0.12);
+  border-radius: 8rpx;
+  padding: 40rpx;
+
+}
+.detailHead button{
+  float: right;
+  color: #fff;
+  font-size: 28rpx;
+  border-radius: 30rpx;
+  height: 60rpx;
+  width: 150rpx;
+  line-height: 60rpx;
+}
+.detailHead button::after{
+  border: 0;
+}
+.detailHead .w{
+  background: #F45B5B;
+}
+.detailHead .y{
+  background: #33DB7B;
+}
+.detailHead view{
+  color: #222;
+  font-size: 28rpx;
+  line-height: 60rpx;
+}
+.detailHead .title{
+  font-size: 32rpx;
+  color: #222222;
+  margin-top: 30rpx;
+}
+.detailHead .title text{
+  font-size: 32rpx;
+color: #F45B5B;
+float: right
+}
+.bot{
+ box-shadow: 0 0 20rpx 0 rgba(50,51,52,0.12);
+  padding: 40rpx;
+  background: #fff;
+  font-size: 32rpx;
+  color: #222222;
+  line-height: 80rpx;
+}
+.concat{
+  text-align: center;
+  color: #3978C4;
+  margin-top: 50rpx;
+}

@@ -1,0 +1,25 @@
+<view class="taskList start">
+  <view class='taskHead'>金瓶梅<text>进行中</text></view>
+  <view class='taskBody'>
+      <view>
+      时间：xxxx-xx-xx
+      <navigator url="/page/navigate/navigate?title=navigate">任务详情</navigator>
+      </view>
+      <view>场次：普通场-50元/场</view>
+      <view>数量：2000场</view>
+      <view>发任务前场次：2000场<button class='shareBtn' open-type="share"></button></view>
+  </view>
+</view>
+<view class="taskList end">
+  <view class='taskHead'>金瓶梅<text>已结束</text></view>
+  <view class='taskBody'>
+      <view>
+      时间：xxxx-xx-xx
+      <navigator url="/page/navigate/navigate?title=navigate">任务详情</navigator>
+      </view>
+      <view>场次：普通场-50元/场</view>
+      <view>数量：2000场</view>
+      <view>发任务前场次：2000场</view>
+      <view>发任务后场次：2000场<button class='shareBtn' open-type="share"></button></view>
+  </view>
+</view>
