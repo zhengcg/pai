@@ -1,0 +1,67 @@
+<view class="tabNav">
+  <navigator url="/pages/sendTask/sendTask" class='select'>快速排片</navigator>
+  <navigator url="/pages/selfTask/selfTask">自主排片</navigator>
+</view>
+<view style='height:112rpx;'></view>
+<view class='status'>XXXX家影城正在等待排片</view>
+<view class='formBox'>
+  <view class='inputBox'>
+    <view class='box'>
+        <text>电影名称</text>
+        <view class='clearfix'>
+          <input type='text' value='无问西东'/>
+          <text>查询</text>
+        </view>
+        
+    </view>
+    <view class='box'>
+      <text>任务时间</text>
+        <view class='clearfix'>
+          <input type='text' value='2018年1月23日'/>
+        </view>
+    </view>
+  </view>
+  <view class='radioBox'>
+    <view>
+      <text>5000元</text>
+      <text>100场</text>
+    </view>
+    <view class='select'>
+      <text>10000元</text>
+      <text>200场</text>
+    </view>
+    <view>
+      <text>30000元</text>
+      <text>600场</text>
+    </view>
+    <view>
+      <text>5000元</text>
+      <text>100场</text>
+    </view>
+    <view>
+      <text>5000元</text>
+      <text>100场</text>
+    </view>
+    <view>
+      <text>5000元</text>
+      <text>100场</text>
+    </view>
+  </view>
+  <view class='selfBox'>
+    <text>自定义（元）：</text>
+    <input type='text' placeholder='金额是100的倍数'/>
+  </view>
+  <view class='boxs'>
+    增加排片：<text style='color: #F45B5B;'>300场</text>
+    <text style='font-size: 24rpx;color: #AAAAAA;float:right'>备注：以50元一场计算</text>
+  </view>
+  <view class='boxs'>
+  预计增加票房：<text style='color: #F45B5B;'>387483元</text>
+  <view style='font-size: 24rpx;color: #AAAAAA;'>全国平均上座率15%，一厅100人，30元票房，一场450元</view>
+  </view>
+  <view style='font-size: 28rpx;color: #AAAAAA;padding:0 40rpx;'>服务费：*****元</view>
+  <view class='redBox'>需支付费用：****元</view>
+  <button class='madeCode'>立即支付并生成任务二维码</button>
+  <view style='font-size: 12px;color: #AAAAAA;text-align:center;padding:40rpx 0;'>未完成任务金额会在任务结束后24小时退回余额</view>
+
+</view>

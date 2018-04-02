@@ -1,5 +1,7 @@
 {
   "pages":[
+    "pages/sendTask/sendTask",
+    "pages/selfTask/selfTask",
     "pages/getTask/getTask",
     "pages/getTaskDetail/getTaskDetail",
     "pages/getTaskList/getTaskList"
