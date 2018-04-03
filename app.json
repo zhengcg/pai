@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/goAuthentication/goAuthentication",
     "pages/sendTask/sendTask",
     "pages/selfTask/selfTask",
     "pages/getTask/getTask",
