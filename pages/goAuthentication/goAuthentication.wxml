@@ -1,0 +1,24 @@
+<view style='padding:32rpx;'>
+  <view class='mainBox'>
+    <view class='inputBox'>
+      <text>影视全称</text>
+      <view>
+      <input type='text' placeholder='单行输入'/>
+      <text>查询</text>
+      </view>
+    </view>
+    <view class='inputBox'>
+      <text>手机号</text>
+      <view>
+      <input type='text' placeholder='单行输入'/>
+      </view>
+    </view>
+    <view class='imgBox'>
+      <view class='img'>
+      </view>
+      <view style='font-size: 24rpx;color: #666666;text-align:center;margin-top:16rpx;'>可上传工牌、名片或者营业执照</view>
+      <button>提交</button>
+      <view style='text-align:center;color: #AAAAAA;font-size:24rpx;margin-top:32rpx;'>1-2小时之内审核完成</view>
+    </view>
+  </view>
+</view>
