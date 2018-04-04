@@ -1,10 +1,11 @@
 {
   "pages":[
+    "pages/getTaskDetail/getTaskDetail",
     "pages/goAuthentication/goAuthentication",
     "pages/sendTask/sendTask",
     "pages/selfTask/selfTask",
     "pages/getTask/getTask",
-    "pages/getTaskDetail/getTaskDetail",
+    
     "pages/getTaskList/getTaskList"
     
   ],

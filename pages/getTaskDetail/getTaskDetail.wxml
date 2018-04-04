@@ -24,3 +24,18 @@
 
   <view class='concat'>联系客服</view>
 </view>
+<view class='getTaskBox'>
+  <view class='taskHead'>
+    我要领任务<text>最多领5场</text>
+    <input type='text' value='0'/>
+  </view>
+  <view class='taskBody'>
+    <view>任务全部完成将领到**元</view>
+    <button>领取任务/已领取</button>
+  </view>
+</view>
+
+<view class='popBox'>
+  <view>领取任务前请先认证</view>
+  <button>去认证</button>
+</view>

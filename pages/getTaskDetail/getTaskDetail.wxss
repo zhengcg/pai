@@ -52,3 +52,80 @@ float: right
   color: #3978C4;
   margin-top: 50rpx;
 }
+.getTaskBox{
+  background: #22A7F0;
+  position: fixed;
+  width: 750rpx;
+  bottom: 0;
+  padding-bottom: 156rpx;
+}
+.taskHead{
+  border-bottom: 2rpx solid #fff;
+  height: 120rp;
+  line-height: 120rpx;
+  padding: 0 48rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.taskHead text{
+  opacity: 0.8;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  padding: 0 10rpx;
+}
+.taskHead input{float: right;width: 200rpx;height: 72rpx;
+background: #FFFFFF;
+border: 2rpx solid #EAEDF3;
+border-radius: 8rpx;
+color: #222;
+padding: 0 20rpx;
+box-sizing: border-box;
+margin-top: 24rpx;
+}
+.taskBody view{
+  opacity: 0.8;
+  font-size: 28rpx;
+  color: #FFFFFF;
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.taskBody button{
+  background: #FFFFFF;
+  box-shadow: 0 4rpx 12rpx 0 rgba(19,69,134,0.28);
+  border-radius: 44rpx;
+  width: 600rpx;
+  height: 88rpx;
+  font-size: 30rpx;
+  color: #3978C4;
+  line-height: 88rpx;
+}
+.popBox{
+  background: #FFFFFF;
+  border: 2rpx solid #EAEDF3;
+  box-shadow: 0 0 20rpx 0 rgba(0,0,0,0.12);
+  width: 550rpx;
+  height: 316rpx;
+  border-radius: 24rpx;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -275rpx;
+  margin-top: -158rpx;
+}
+.popBox{
+  line-height: 164rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #222222;
+}
+.popBox button{
+  background-image: linear-gradient(-135deg, #22A7F0 0%, #3A75C2 100%);
+box-shadow: 0 4rpx 12rpx 0 rgba(19,69,134,0.28);
+border-radius: 44rpx;
+width: 392rpx;
+height: 88rpx;
+line-height: 88rpx;
+font-size: 30rpx;
+color: #FFFFFF;
+}
